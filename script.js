@@ -1,9 +1,9 @@
 // ? Create Element
 
-function element(tagename, claslist, idname, content) {
-  let ele = document.createElement(tagename);
-  // ele.className=clasname;
-  ele.classList = claslist;
+function element(tagname, classlist, idname, content) {
+  let ele = document.createElement(tagname);
+  // ele.className=classname;
+  ele.classList = classlist;
   ele.id = idname;
   ele.innerHTML = content;
 
@@ -38,9 +38,7 @@ data
     <p>Name :${key.name} </p>
     <p>Created At:${key.createdAt} </p>
     <p>Updated At:${key.updatedAt} </p>
-    <p>More Details:${key.url} </p>
-    
-   
+    <p>More Details:${key.url} </p>  
     
    
     </div>
